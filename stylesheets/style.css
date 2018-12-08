@@ -6,10 +6,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
+header {
+  background-color: black;
+}
 
 header img {
-  width: 100px;
-  height: 100px;
+  display: flex;
+
+  width: 1450px;
+  margin-top: -200px;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+body {
+   background-color: black;
+}
+
+.text {
+  color: white;
+
+  font-family:"akrobat";
+}
+
+.headline {
+  margin-top: -100px;
+  margin-left: 300px;
+
+ font-size: 150px;
+}
+
+p {
+  font-size: 20px;
 }
