@@ -2,5 +2,12 @@
   font-family: "akrobat";
   font-style: normal;
 
-  src: url("fonts/akrobat/Akrobat-Thin.otf") format("otf");
+  src: url("fonts/Akrobat-Bold.woff") format("otf");
+}
+
+@font-face {
+  font-family: "vds";
+  font-style: normal;
+
+  src: url("fonts/VDS_Bold_New.woff") format("ttf");
 }

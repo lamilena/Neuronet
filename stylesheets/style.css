@@ -2,43 +2,125 @@
 @import "fonts.css";
 
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-header {
-  background-color: black;
-}
-
-header img {
-  display: flex;
-
-  width: 1450px;
-  margin-top: -200px;
-
-  align-items: center;
-  justify-content: center;
-
-
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
    background-color: black;
 }
 
-.text {
-  color: white;
+header img {
+   width: 1450px;
 
-  font-family:"akrobat";
+   align-items: center;
+   justify-content: center;
 }
 
-.headline {
-  margin-top: -100px;
-  margin-left: 300px;
+.title {
+   position: static;
+   z-index: 1;
 
- font-size: 150px;
+   display: flex;
+
+   margin-top: -100px;
+
+   color: #fa9c2e;
+
+   font-family:"vds";
+   font-size: 190px;
+   font-weight: bold;
+
+   align-items: center;
+   justify-content: center;
+}
+
+.text {
+   display: grid;
+
+   margin-top: 100px;
+
+   color: white;
+
+   font-family: "akrobat";
+
+   grid-template-columns: 20% 20% 20%;
+   justify-content: center;
+   align-items: flex-start;
+   grid-column-gap: 50px;
+}
+
+h2 {
+   margin-bottom: 30px;
+
+   font-size: 40px;
 }
 
 p {
-  font-size: 20px;
+   font-size: 20px;
+}
+
+.button {
+   display: flex;
+
+   margin: 35% 35%;
+   margin-top: 145px;
+   padding: 1rem 4rem;
+
+   border: none;
+   border: 5px solid #fa9c2e;
+   border-radius: 15px;
+
+   align-items: center;
+   justify-content: center;
+ }
+
+.button a {
+   text-decoration: none;
+
+   color: white;
+
+   font-family: "vds";
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.button:active {
+   cursor: pointer;
+   transform: translateY(4px);
+
+   background-color: #fa9c2e;
+}
+
+.ikons {
+   position: absolute;
+   z-index: 1;
+   left:45%;
+
+   display: flex;
+
+   margin-top: -400px;
+   margin-left:-150px;
+}
+
+.ikons img {
+   width: 100px;
+   padding-right: 25px;
+   padding-left: 25px;
+}
+
+.ikons a:active {
+   cursor: pointer;
+   transform: translateY(4px);
+}
+
+.shape1 {
+   position: absolute;
+
+   width: 1300px;
+   margin-top: -420px;
+   margin-left: 0px;
+
+   align-items: center;
+   justify-content: center;
 }
