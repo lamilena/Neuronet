@@ -1,13 +1,27 @@
 @font-face {
-  font-family: "akrobat";
+  font-family: "Akrobat-Regular";
   font-style: normal;
 
-  src: url("fonts/Akrobat-Bold.woff") format("otf");
+  src: url("fonts/Akrobat-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "vds";
+  font-family: "Akrobat-SemiBold";
   font-style: normal;
 
-  src: url("fonts/VDS_Bold_New.woff") format("ttf");
+  src: url("fonts/Akrobat-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Akrobat-Black";
+  font-style: normal;
+
+  src: url("fonts/Akrobat-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Akrobat-Bold";
+  font-style: normal;
+
+  src: url("fonts/Akrobat-Bold.woff") format("woff");
 }
