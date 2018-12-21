@@ -253,8 +253,8 @@ h3 {
   }
 }
 @media all and (max-width: 1440px) {
-.header1 {
-  margin-top: 500px;
+.header1  {
+  margin-top: 1vw;
 }
 body {
    overflow-x:hidden;
@@ -263,4 +263,52 @@ body {
    margin-left: 200px;
 }
 
+.pain {
+    margin-top: -14vw;
+    margin-left: 63vw;
+}
+h1 {
+  margin-left: -10vw;
+
+  font-size: 15vw;
+  line-height: 14vw;
+}
+.shapesforheader {
+  margin-top: 28vw;
+}
+.article1 {
+    width: 39vw;
+    height: 10vw;
+    margin-top: -50vw;
+  margin-left: 64vw;
+}
+.article2 {
+  margin-top: 17vw;
+    margin-right: 49vw;
+    margin-left: -9vw;
+}
+.article3 {
+width: 41vw;
+  margin-top: 9vw;
+margin-left: -9vw;
+}
+.button {
+  display: flex;
+
+    margin-top: -11vw;
+    margin-left: 10vw;
+    /* margin-bottom: 200px; */
+
+    justify-content: center;
+    align-items: center;
+}
+.poster {
+  position: relative;
+
+width: 37vw;
+/* display: flex; */
+/* flex-direction: column; */
+margin-top: -58vw;
+margin-left: 64vw;
+}
 }
