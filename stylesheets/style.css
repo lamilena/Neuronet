@@ -252,7 +252,7 @@ h3 {
     width: 50%
   }
 }
-@media all and (min-width: 1441px) {
+@media all and (max-width: 1441px) {
 .header1  {
   margin-top: 1vw;
 }
@@ -285,18 +285,18 @@ h3 {
   font-family:"Akrobat-Black";
 }
 .shapesforheader {
-  margin-top: 28vw;
+   margin-top: 28vw;
 }
 .article1 {
-    width: 39vw;
-    height: 10vw;
-    margin-top: -50vw;
-  margin-left: 64vw;
+   width: 39vw;
+   height: 10vw;
+   margin-top: -50vw;
+   margin-left: 64vw;
 }
 .article2 {
-  margin-top: 17vw;
-    margin-right: 49vw;
-    margin-left: -9vw;
+   margin-top: 17vw;
+   margin-right: 49vw;
+   margin-left: -9vw;
 }
 .article3 {
 width: 41vw;
@@ -304,21 +304,18 @@ width: 41vw;
 margin-left: -9vw;
 }
 .button {
-  display: flex;
+   display: flex;
 
-    margin-top: -11vw;
-    margin-left: 10vw;
-    /* margin-bottom: 200px; */
+   margin-top: -11vw;
+   margin-left: 10vw;
 
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
+   align-items: center;
 }
 .poster {
   position: relative;
 
 width: 37vw;
-/* display: flex; */
-/* flex-direction: column; */
 margin-top: -58vw;
 margin-left: 64vw;
 }
