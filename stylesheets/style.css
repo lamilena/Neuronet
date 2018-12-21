@@ -55,6 +55,7 @@ h1 {
    position: absolute;
    top: -64vw;
    left: 0;
+   z-index: 3;
 }
 
 .star_2 {
@@ -62,6 +63,7 @@ h1 {
    position: absolute;
    top: 22vw;
    left: -51vw;
+   z-index: 1;
 }
 .star_3 {
    width: 107vw;
@@ -76,16 +78,35 @@ h1 {
    left: 15vw;
 }
 .star_5 {
-   width: 116vw;
-   position: absolute;
-   top: 132vw;
-   left: 84vw;
+  width: 61vw;
+    position: absolute;
+    top: 155vw;
+    left: 67vw;
 }
 .star_6 {
   width: 84vw;
 position: absolute;
 top: 116vw;
 left: -21vw;
+}
+.star_7 {
+  width: 80vw;
+position: absolute;
+top: 164vw;
+left: 90vw;
+}
+.star_8 {
+  z-index: 20;
+width: 66vw;
+position: absolute;
+top: 203vw;
+left: 65vw;
+}
+.star_9 {
+  width: 119vw;
+position: absolute;
+top: 301vw;
+left: 17vw;
 }
 
 main {
@@ -148,49 +169,7 @@ h3 {
    line-height: 80px;
 }
 
-.shape5 {
-   position: relative;
 
-   margin-top: -1150px;
-   margin-left: 450px;
-}
-
-.shape5 img {
-   width: 700px;
-}
-
-.shape6 {
-   position: relative;
-
-   margin-top: -730px;
-   margin-left: 740px;
-}
-
-.shape6 img {
-   width: 750px;
-}
-
-.shape7 {
-   position: relative;
-
-   margin-top: -660px;
-   margin-left: 500px;
-}
-
-.shape7 img {
-   width: 800px;
-}
-
-.shape8 {
-   position: relative;
-
-   margin-top: -720px;
-   margin-left: 960px;
-}
-
-.shape8 img {
-   width: 500px;
-}
 
 .button {
    display: flex;
@@ -322,22 +301,21 @@ width: 54vw;
     margin-left: -4vw;
 }
 .button {
-   display: flex;
+  display: flex;
    width: 100vw;
-   margin-top: 44vw;
+   margin-top: 12vw;
    margin-left: 13vw;
    justify-content: center;
    align-items: center;
+
 }
 .poster {
   position: relative;
 width: 38vw;
-margin-top: -93vw;
+margin-top: -85vw;
 margin-left: 81vw;
 }
 .line {
-  font-size:
+  height: 8vw;
+width: 45vw;
 }
-}
-
-@media all and (max-width: 1441px)
