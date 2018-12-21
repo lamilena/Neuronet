@@ -270,8 +270,19 @@ body {
 h1 {
   margin-left: -10vw;
 
+  font-family:"Akrobat-Black";
   font-size: 15vw;
   line-height: 14vw;
+}
+h2 {
+  font-family:"Akrobat-Bold";
+
+}
+p {
+  font-family:"Akrobat-SemiBold";
+}
+h3 {
+  font-family:"Akrobat-Black";
 }
 .shapesforheader {
   margin-top: 28vw;
